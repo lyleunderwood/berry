@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - master
+    - merceyz/ci/reduce-work
     paths:
     - .github/actions/prepare/action.yml
     - .github/workflows/e2e-nm-berry-workflow.yml
